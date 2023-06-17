@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int c = 0;
@@ -39,5 +44,6 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
+
 	return (0);
 }
