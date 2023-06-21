@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _putchar - writes a character to stout
- * @c: input character
- * Return: the character to print
+ * main - prints _putchar, followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
