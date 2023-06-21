@@ -10,7 +10,7 @@ int main(void)
 	int a = 0, b = 1, n = 0;
 	int sum = 0;
 
-	while (next < 4000000)
+	while (n < 4000000)
 	{
 		n = a + b;
 		a = b;
