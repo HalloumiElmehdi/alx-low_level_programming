@@ -1,10 +1,18 @@
-#include <unistd.h>
+#include <main.h>
 /**
  * _putchar - writes a character to stout
  * @c: input character
  * Return: the character to print
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char c[] = "putchar";
+	int i;
+
+	for (i = 0; i < 7; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
