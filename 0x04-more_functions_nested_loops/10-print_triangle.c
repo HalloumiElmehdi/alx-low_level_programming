@@ -2,7 +2,7 @@
 
 /**
  * print_triangle -prints a triangle
- * @size : input integer 
+ * @size : input integer
  * Return: void
  */
 
